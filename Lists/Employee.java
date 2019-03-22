@@ -17,11 +17,13 @@ class Employee {
         this.lastName = lastName;
         this.id = id;        
     }
-    
+
+// This is getter for String firstName    
     public String getFirstName(){
         return firstName;
     }
     
+// This is setter for String firstName    
     public void setFirstName(String firstName){
         this.firstName = firstName;
     }
